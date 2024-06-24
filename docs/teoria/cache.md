@@ -14,11 +14,11 @@
 
 ## ¿Cuál es su importancia?
 <p align="justify">La memoria caché es crucial para el rendimiento de las aplicaciones y sistemas informáticos debido a varias razones:</p>
-<p align="justify"><strong>- Reducción de latencia:</strong> Al almacenar datos frecuentemente accedidos en una memoria de acceso rápido, se reduce significativamente el tiempo de respuesta.</p>
-<p align="justify"><strong>- Disminución de carga:</strong> Al servir datos desde la caché, se reduce la carga en los sistemas de origen, como bases de datos o servidores web.</p>
-<p align="justify"><strong>- Optimización de recursos:</strong> La caché permite un uso más eficiente de recursos computacionales y de red.</p>
-<p align="justify"><strong>- Escalabilidad:</strong> Sistemas con caché bien implementada pueden manejar más carga sin necesidad de aumentar proporcionalmente los recursos.</p>
-<p align="justify"><strong>- Ahorro de ancho de banda:</strong> En aplicaciones web, la caché puede reducir significativamente el tráfico de red.</p>
+<p align="justify"><strong>Reducción de latencia:</strong> Al almacenar datos frecuentemente accedidos en una memoria de acceso rápido, se reduce significativamente el tiempo de respuesta.</p>
+<p align="justify"><strong>Disminución de carga:</strong> Al servir datos desde la caché, se reduce la carga en los sistemas de origen, como bases de datos o servidores web.</p>
+<p align="justify"><strong>Optimización de recursos:</strong> La caché permite un uso más eficiente de recursos computacionales y de red.</p>
+<p align="justify"><strong>Escalabilidad:</strong> Sistemas con caché bien implementada pueden manejar más carga sin necesidad de aumentar proporcionalmente los recursos.</p>
+<p align="justify"><strong>Ahorro de ancho de banda:</strong> En aplicaciones web, la caché puede reducir significativamente el tráfico de red.</p>
 
 ## Capas de la caché
 <p align="justify">En el desarrollo de software la caché no está en un solo lugar, sino que puede implementarse en diferentes capas. Las principales son:</p>
