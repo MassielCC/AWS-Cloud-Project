@@ -14,16 +14,16 @@
 
 ## ¿Cuál es su importancia?
 <p align="justify">La memoria caché es crucial para el rendimiento de las aplicaciones y sistemas informáticos debido a varias razones:</p>
-<p align="justify">Reducción de latencia: Al almacenar datos frecuentemente accedidos en una memoria de acceso rápido, se reduce significativamente el tiempo de respuesta.</p>
-<p align="justify">Disminución de carga: Al servir datos desde la caché, se reduce la carga en los sistemas de origen, como bases de datos o servidores web.</p>
-<p align="justify">Optimización de recursos: La caché permite un uso más eficiente de recursos computacionales y de red.</p>
-<p align="justify">Escalabilidad: Sistemas con caché bien implementada pueden manejar más carga sin necesidad de aumentar proporcionalmente los recursos.</p>
-<p align="justify">Ahorro de ancho de banda: En aplicaciones web, la caché puede reducir significativamente el tráfico de red.</p>
+<p align="justify"><strong>- Reducción de latencia:</strong> Al almacenar datos frecuentemente accedidos en una memoria de acceso rápido, se reduce significativamente el tiempo de respuesta.</p>
+<p align="justify"><strong>- Disminución de carga:</strong> Al servir datos desde la caché, se reduce la carga en los sistemas de origen, como bases de datos o servidores web.</p>
+<p align="justify"><strong>- Optimización de recursos:</strong> La caché permite un uso más eficiente de recursos computacionales y de red.</p>
+<p align="justify"><strong>- Escalabilidad:</strong> Sistemas con caché bien implementada pueden manejar más carga sin necesidad de aumentar proporcionalmente los recursos.</p>
+<p align="justify"><strong>- Ahorro de ancho de banda:</strong> En aplicaciones web, la caché puede reducir significativamente el tráfico de red.</p>
 
 ## Capas de la caché
 <p align="justify">En el desarrollo de software la caché no está en un solo lugar, sino que puede implementarse en diferentes capas. Las principales son:</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/9e1ced23-9cc1-47bf-8e5f-700d59ec1477" width="700">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/b4fa108e-8cea-4b82-a7e2-a822d6861cf5" width="700">
 </p>
 
 | Capa  | Descripción  |
@@ -36,25 +36,25 @@
 
 ## Tipos de caché y casos de uso
 ### Caché de CPU
-<p align="justify">Descripción: La caché de CPU es una memoria de acceso rápido situada dentro o muy cerca del procesador. Está diseñada para almacenar datos y comandos a los que la CPU necesita acceder con frecuencia. Existen varios niveles de caché (L1, L2, L3), siendo L1 la más rápida y pequeña, y L3 la más grande y lenta.</p>
-<p align="justify">Caso de uso: Mejora la eficiencia de la CPU al reducir el tiempo que tarda en acceder a la memoria principal (RAM). Ideal para operaciones repetitivas y procesamiento de datos intensivo.</p>
+<p align="justify"><strong>Descripción:</strong> La caché de CPU es una memoria de acceso rápido situada dentro o muy cerca del procesador. Está diseñada para almacenar datos y comandos a los que la CPU necesita acceder con frecuencia. Existen varios niveles de caché (L1, L2, L3), siendo L1 la más rápida y pequeña, y L3 la más grande y lenta.</p>
+<p align="justify"><strong>Caso de uso:</strong> Mejora la eficiencia de la CPU al reducir el tiempo que tarda en acceder a la memoria principal (RAM). Ideal para operaciones repetitivas y procesamiento de datos intensivo.</p>
 
 ### Caché de disco
-<p align="justify">Descripción: La caché de disco utiliza una porción de la memoria RAM para almacenar datos que se leen y escriben con frecuencia desde el disco duro. Los SSDs también tienen su propia caché integrada.</p>
-<p align="justify">Caso de uso: Acelera el acceso a datos almacenados en discos duros o SSD, mejorando el rendimiento del sistema en general. Utilizado en sistemas operativos y aplicaciones que manejan grandes volúmenes de datos.</p>
+<p align="justify"><strong>Descripción:</strong> La caché de disco utiliza una porción de la memoria RAM para almacenar datos que se leen y escriben con frecuencia desde el disco duro. Los SSDs también tienen su propia caché integrada.</p>
+<p align="justify"><strong>Caso de uso:</strong> Acelera el acceso a datos almacenados en discos duros o SSD, mejorando el rendimiento del sistema en general. Utilizado en sistemas operativos y aplicaciones que manejan grandes volúmenes de datos.</p>
 
 ### Caché de CDN
-<p align="justify">Descripción: Las redes de entrega de contenido (CDN) utilizan servidores distribuidos en diferentes ubicaciones geográficas para almacenar en caché contenido estático, como imágenes, videos y archivos CSS/JS.</p>
-<p align="justify">Caso de uso: Mejora el rendimiento de la entrega de contenido web al reducir la latencia y distribuir la carga del servidor. Es crucial para sitios web con alto tráfico y contenido multimedia.</p>
+<p align="justify"><strong>Descripción:</strong> Las redes de entrega de contenido (CDN) utilizan servidores distribuidos en diferentes ubicaciones geográficas para almacenar en caché contenido estático, como imágenes, videos y archivos CSS/JS.</p>
+<p align="justify"><strong>Caso de uso:</strong> Mejora el rendimiento de la entrega de contenido web al reducir la latencia y distribuir la carga del servidor. Es crucial para sitios web con alto tráfico y contenido multimedia.</p>
 
 ### Caché de DNS
-<p align="justify">Descripción: La caché DNS almacena temporalmente los registros de las direcciones IP que corresponden a los nombres de dominio. Esto ocurre tanto en los clientes (dispositivos de usuarios) como en los servidores DNS.</p>
-<p align="justify">Caso de uso: Acelera la resolución de nombres de dominio, reduciendo el tiempo necesario para acceder a sitios web y servicios de internet. Útil para mejorar la experiencia del usuario y reducir la carga en los servidores DNS.</p>
+<p align="justify"><strong>Descripción:</strong> La caché DNS almacena temporalmente los registros de las direcciones IP que corresponden a los nombres de dominio. Esto ocurre tanto en los clientes (dispositivos de usuarios) como en los servidores DNS.</p>
+<p align="justify"><strong>Caso de uso:</strong> Acelera la resolución de nombres de dominio, reduciendo el tiempo necesario para acceder a sitios web y servicios de internet. Útil para mejorar la experiencia del usuario y reducir la carga en los servidores DNS.</p>
 
 ### Caché web
-<p align="justify">Descripción: La caché web almacena copias de páginas web y sus recursos asociados (imágenes, scripts, etc.) para su uso futuro. Esto puede hacerse en el navegador del usuario, en servidores intermedios (proxies) o en los propios servidores web.</p>
-<p align="justify">Caso de uso: Mejora la velocidad de carga de las páginas web al evitar descargas repetidas de los mismos recursos. Es beneficioso tanto para usuarios finales como para reducir la carga en los servidores web.</p>
+<p align="justify"><strong>Descripción:</strong> La caché web almacena copias de páginas web y sus recursos asociados (imágenes, scripts, etc.) para su uso futuro. Esto puede hacerse en el navegador del usuario, en servidores intermedios (proxies) o en los propios servidores web.</p>
+<p align="justify"><strong>Caso de uso:</strong> Mejora la velocidad de carga de las páginas web al evitar descargas repetidas de los mismos recursos. Es beneficioso tanto para usuarios finales como para reducir la carga en los servidores web.</p>
 
 ### Caché de bases de datos
-<p align="justify">Descripción: La caché de bases de datos almacena resultados de consultas frecuentes en una memoria de acceso rápido (RAM). Esto puede hacerse a nivel de aplicación o utilizando soluciones dedicadas como Redis o Memcached.</p>
-<p align="justify">Caso de uso: Mejora significativamente el rendimiento de las aplicaciones al reducir la latencia de acceso a los datos y aligerar la carga en las bases de datos subyacentes. Es crucial para aplicaciones que requieren alta disponibilidad y rapidez en la respuesta.</p>
+<p align="justify"><strong>Descripción:</strong> La caché de bases de datos almacena resultados de consultas frecuentes en una memoria de acceso rápido (RAM). Esto puede hacerse a nivel de aplicación o utilizando soluciones dedicadas como Redis o Memcached.</p>
+<p align="justify"><strong>Caso de uso:</strong> Mejora significativamente el rendimiento de las aplicaciones al reducir la latencia de acceso a los datos y aligerar la carga en las bases de datos subyacentes. Es crucial para aplicaciones que requieren alta disponibilidad y rapidez en la respuesta.</p>
