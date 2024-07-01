@@ -5,6 +5,9 @@
 
 ## Concepto de Amazon ElastiCache
 <p align="justify">Amazon ElastiCache es un servicio web de almacenamiento en caché completamente administrado que proporciona una capa de almacenamiento de alto rendimiento y baja latencia en la nube. Facilita la implementación, el funcionamiento y el escalado de cachés en memoria, mejorando el rendimiento de aplicaciones web al recuperar rápidamente información almacenada en memoria, en lugar de depender de bases de datos más lentas basadas en disco.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/07e1c6ef-0068-49bb-a539-a37114271a92" width="1000">
+</p>
 
 ## Beneficios y Características
 - Mejora el rendimiento de aplicaciones al reducir la latencia.
