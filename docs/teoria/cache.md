@@ -97,7 +97,7 @@
 - Reducir la carga en el servidor de base de datos.
 - Mejorar el rendimiento de aplicaciones con uso intensivo de datos.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/a14f7793-fea6-43ff-b4a5-e45d0f5f5eae" width="506">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/628e1a6c-f662-42a8-b6bd-03a4f4f40a91" width="494">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/a14f7793-fea6-43ff-b4a5-e45d0f5f5eae" width="507">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/628e1a6c-f662-42a8-b6bd-03a4f4f40a91" width="493">
 </div>
 
