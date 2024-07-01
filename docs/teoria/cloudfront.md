@@ -25,6 +25,9 @@
 
 ## CloudFront Functions
 <p align="justify">CloudFront Functions es una característica de CloudFront que permite ejecutar código JavaScript ligero en las ubicaciones de borde para manipulaciones simples de solicitudes y respuestas, ofreciendo personalización a escala masiva con latencia ultrabaja.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/12d628ba-a650-4493-ae2c-49f6333c9783" width="900">
+</p>
 
 ### Componentes clave de CloudFront
 - **Distribuciones:** Configuración que define cómo CloudFront entrega el contenido.
