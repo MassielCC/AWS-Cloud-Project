@@ -79,8 +79,8 @@
 - Disminuir el tráfico hacia servidores DNS autoritativos.
 - Mejorar la velocidad de carga de páginas web.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/3776f9b2-9534-4703-a28c-7f1465a291b2" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/6af2e6a1-8e36-464a-8267-50bc9fdc804a" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/3776f9b2-9534-4703-a28c-7f1465a291b2" width="600">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/6af2e6a1-8e36-464a-8267-50bc9fdc804a" width="400">
 </div>
 
 ### Almacenamiento en caché web
