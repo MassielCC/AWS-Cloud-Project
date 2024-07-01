@@ -61,8 +61,8 @@
 - Mejorar el rendimiento de sistemas de archivos.
 - Optimizar operaciones de lectura/escritura en discos duros o SSD.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c5f35726-439b-41ca-a66d-165ccf3451c0" width="580">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/81741eae-cb24-4b2a-b4f2-9d303405a2da" width="420">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c5f35726-439b-41ca-a66d-165ccf3451c0" width="570">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/81741eae-cb24-4b2a-b4f2-9d303405a2da" width="430">
 </div>
 
 ### Almacenamiento en caché de CDN
