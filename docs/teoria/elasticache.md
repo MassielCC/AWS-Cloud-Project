@@ -23,27 +23,18 @@
 
 ## Motores de ElastiCache
 ### ElastiCache para Redis
-<p align="justify">ElastiCache para Redis es un servicio web que facilita el despliegue y gestión de cachés Redis en la nube. Permite administrar y supervisar nodos de Redis mediante la consola de ElastiCache, la CLI de AWS o las API del servicio web.</p>
+<p align="justify">Amazon ElastiCache para Redis es un servicio web que facilita la implementación, operación y escalado de una infraestructura compatible con Redis en la nube. Redis es una estructura de datos en memoria, de código abierto, que puede utilizarse como una base de datos, caché y agente de mensajes, conocida por su alto rendimiento y flexibilidad.</p>
 
 #### Características y Ventajas
-Almacena datos en memoria RAM para ofrecer alta velocidad y baja latencia.
-Permite escalar horizontalmente automáticamente según la demanda.
-Soporta estructuras avanzadas como listas y hashes para operaciones eficientes.
-Proporciona opciones de persistencia para asegurar la durabilidad de los datos.
-- Almacenamiento en formato clave-valor.
-- Soporta diferentes estructuras de datos (hash tables, sets).
-- Permite operaciones en las estructuras de datos.
+- Almacena datos en memoria RAM para ofrecer alta velocidad y baja latencia.
+- Soporta estructuras avanzadas como listas y hashes para operaciones eficientes.
+- Proporciona opciones de persistencia para asegurar la durabilidad de los datos.
 
 ### ElastiCache para Memcached
-<p align="justify"></p>
+<p align="justify">
+Amazon ElastiCache para Memcached es un servicio web que facilita la implementación, operación y escalado de un almacén de datos en memoria compatible con Memcached en la nube. Memcached es un sistema de caché distribuido y de código abierto que acelera aplicaciones web dinámicas al reducir la carga de la base de datos al almacenar en caché datos y objetos en la memoria RAM.</p>
 
 #### Características y Ventajas
-Facilita la implementación sin configuraciones complicadas.
-Optimiza el acceso a datos con alta velocidad y baja latencia.
-Escala horizontalmente de forma automática según la carga de trabajo.
-Distribuye la carga entre nodos para mantener un rendimiento consistente.
-- Arquitectura cliente-servidor.
-- Almacenamiento en formato clave-valor.
-- Usa tabla hash y algoritmo LRU.
-- Escalable y distribuible en varios servidores.
-
+- Facilita la implementación sin configuraciones complicadas.
+- Optimiza el acceso a datos con alta velocidad y baja latencia.
+- Distribuye la carga entre nodos para mantener un rendimiento consistente.
