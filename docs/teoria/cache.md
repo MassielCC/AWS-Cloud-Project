@@ -70,8 +70,8 @@
 - Reducir la latencia para usuarios geográficamente distantes.
 - Aliviar la carga del servidor de origen.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/843a596d-0d76-414d-b7eb-68a7e71994f7" width="490">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/328eb46f-6ab4-4ae4-8c71-5475bec2fa26" width="510">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/843a596d-0d76-414d-b7eb-68a7e71994f7" width="485">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/328eb46f-6ab4-4ae4-8c71-5475bec2fa26" width="515">
 </div>
 
 ### Almacenamiento en caché de DNS
