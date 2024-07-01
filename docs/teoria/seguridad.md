@@ -4,7 +4,8 @@
 </p>
 
 ## Concepto de AWS WAF
-AWS WAF es un firewall de aplicaciones web que ayuda a proteger sus aplicaciones web o APIs contra exploits comunes que podrían afectar la disponibilidad, comprometer la seguridad o consumir recursos excesivos. AWS WAF se integra con servicios como Amazon CloudFront y ElastiCache para proporcionar una capa adicional de seguridad para sus cachés y aplicaciones.
+<p align="justify">AWS WAF es un firewall de aplicaciones web que ayuda a proteger sus aplicaciones web o APIs contra exploits comunes que podrían afectar la disponibilidad, comprometer la seguridad o consumir recursos excesivos. AWS WAF se integra con servicios como Amazon CloudFront y ElastiCache para proporcionar una capa adicional de seguridad para sus cachés y aplicaciones.</p>
+
 
 ### Características y Ventajas
 - Protege contra ataques web comunes como inyección SQL y cross-site scripting (XSS).
@@ -20,9 +21,9 @@ AWS WAF es un firewall de aplicaciones web que ayuda a proteger sus aplicaciones
 - Control de acceso geográfico a contenido en caché.
 
 ### Integración con ElastiCache
-WAF puede proteger el acceso a los endpoints de ElastiCache cuando se usa junto con CloudFront o Application Load Balancer.
-Ayuda a prevenir el envenenamiento de caché al filtrar solicitudes maliciosas.
-Permite implementar políticas de seguridad consistentes en toda la infraestructura de caché.
+- WAF puede proteger el acceso a los endpoints de ElastiCache cuando se usa junto con CloudFront o Application Load Balancer.
+- Ayuda a prevenir el envenenamiento de caché al filtrar solicitudes maliciosas.
+- Permite implementar políticas de seguridad consistentes en toda la infraestructura de caché.
 
 ### Componentes clave de WAF para seguridad de caché
 - **Web ACLs (Listas de Control de Acceso Web):** Conjunto de reglas que definen las acciones para el tráfico web.
@@ -40,9 +41,9 @@ Permite implementar políticas de seguridad consistentes en toda la infraestruct
 - Integración con Amazon CloudWatch para métricas en tiempo real.
 - Logging detallado de solicitudes para análisis de seguridad y cumplimiento.
 - Alertas configurables para notificaciones de actividad sospechosa.
-Mejores prácticas
 
-Implementar el principio de menor privilegio en las reglas de acceso.
-Mantener actualizados los conjuntos de reglas administrados.
-Realizar pruebas exhaustivas antes de implementar nuevas reglas en producción.
-Utilizar AWS WAF en conjunto con otras medidas de seguridad como encriptación en tránsito.
+### Mejores prácticas
+- Implementar el principio de menor privilegio en las reglas de acceso.
+- Mantener actualizados los conjuntos de reglas administrados.
+- Realizar pruebas exhaustivas antes de implementar nuevas reglas en producción.
+- Utilizar AWS WAF en conjunto con otras medidas de seguridad como encriptación en tránsito.
