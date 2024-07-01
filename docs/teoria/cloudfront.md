@@ -5,7 +5,9 @@
 
 ## Concepto de Amazon CloudFront
 <p align="justify">Amazon CloudFront es un servicio de red de entrega de contenido (CDN) rápido, seguro y programable que acelera la distribución de contenido estático y dinámico a usuarios de todo el mundo con baja latencia y altas velocidades de transferencia. CloudFront entrega el contenido a través de una red global de centros de datos llamados ubicaciones de borde, mejorando significativamente la experiencia del usuario final.</p>
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/0c5876cd-ff9f-446c-903f-4e02ec1d4c60" width="900">
+</p>
 
 ### Características y Ventajas
 - Mejora la velocidad de carga y el rendimiento de sitios web y aplicaciones.
