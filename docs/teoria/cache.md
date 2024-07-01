@@ -62,7 +62,7 @@
 - Optimizar operaciones de lectura/escritura en discos duros o SSD.
 <div align="center"; style="display: flex; justify-content: space-between;">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c5f35726-439b-41ca-a66d-165ccf3451c0" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d723f32a-e94c-4217-b9bc-22b2b29a6dc4" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/1a2b124d-ceb8-4596-8a00-3980f426252c" width="500">
 </div>
 
 ### Almacenamiento en caché de CDN
