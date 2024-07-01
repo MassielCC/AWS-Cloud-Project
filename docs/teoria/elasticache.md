@@ -22,3 +22,28 @@
 <p align="justify">ElastiCache sin servidor es una opción que permite implementar una caché en menos de un minuto sin necesidad de aprovisionar infraestructura ni planificar la capacidad. Supervisa continuamente la utilización de la red, memoria y procesamiento, permitiendo una escalabilidad instantánea para satisfacer la demanda sin tiempo de inactividad ni degradación del rendimiento.</p>
 
 ## Motores de ElastiCache
+### ElastiCache para Redis
+<p align="justify">ElastiCache para Redis es un servicio web que facilita el despliegue y gestión de cachés Redis en la nube. Permite administrar y supervisar nodos de Redis mediante la consola de ElastiCache, la CLI de AWS o las API del servicio web.</p>
+
+#### Características y Ventajas
+Almacena datos en memoria RAM para ofrecer alta velocidad y baja latencia.
+Permite escalar horizontalmente automáticamente según la demanda.
+Soporta estructuras avanzadas como listas y hashes para operaciones eficientes.
+Proporciona opciones de persistencia para asegurar la durabilidad de los datos.
+- Almacenamiento en formato clave-valor.
+- Soporta diferentes estructuras de datos (hash tables, sets).
+- Permite operaciones en las estructuras de datos.
+
+### ElastiCache para Memcached
+<p align="justify"></p>
+
+#### Características y Ventajas
+Facilita la implementación sin configuraciones complicadas.
+Optimiza el acceso a datos con alta velocidad y baja latencia.
+Escala horizontalmente de forma automática según la carga de trabajo.
+Distribuye la carga entre nodos para mantener un rendimiento consistente.
+- Arquitectura cliente-servidor.
+- Almacenamiento en formato clave-valor.
+- Usa tabla hash y algoritmo LRU.
+- Escalable y distribuible en varios servidores.
+
