@@ -1,0 +1,30 @@
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Código Fuente del Proyecto: Implementación de Caché y CDN en AWS</h1>
+</p>
+
+<p align="justify">
+Este repositorio contiene el código fuente y scripts relacionados con la implementación de servicios de caché y CDN en AWS. Aquí encontrarás scripts específicos para configurar y gestionar AWS ElastiCache, Amazon CloudFront y WAF, así como patrones de diseño para optimizar el rendimiento y la seguridad de aplicaciones distribuidas.
+</p>
+
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/bf5121de-8d54-4736-8426-411938176950">
+</p>
+
+## Contenido
+| Nombre de Carpeta  | Descripción  |
+| :------------: | :------------: |
+| <a href="elasticache">elasticache</a>  | <p align="justify">Scripts para configurar y gestionar AWS ElastiCache, incluyendo implementaciones de patrones de caché como Cache-Aside, Read-Through y Write-Through.</p>  |
+| <a href="cloudfront">cloudfront</a>  | <p align="justify">Scripts y configuraciones para AWS CloudFront y WAF, optimizando la distribución de contenido estático y la seguridad con políticas de Web Application Firewall (WAF).</p>  |
+
+## Requisitos
+- Conocimientos avanzados de AWS y servicios de infraestructura en la nube.
+- Acceso a una cuenta de AWS con permisos para configurar y gestionar ElastiCache y CloudFront.
+- Experiencia en scripting con Python (o lenguaje similar).
+- Herramientas de línea de comandos de AWS (AWS CLI) configuradas y actualizadas.
+
+## Contribución
+Si deseas contribuir con mejoras, nuevas características o correcciones, ¡te invitamos a enviar una solicitud de extracción! Tu colaboración es valiosa para mejorar este proyecto.
+
+## Contacto
+Para cualquier consulta o discusión relacionada con este código fuente, no dudes en abrir un issue o contactar directamente por correo electrónico.
