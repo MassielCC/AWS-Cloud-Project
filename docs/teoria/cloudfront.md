@@ -34,6 +34,9 @@
 - **Orígenes:** Servidores desde donde CloudFront obtiene los archivos para distribuir.
 - **Comportamientos de caché:** Reglas que determinan cómo CloudFront maneja las solicitudes.
 - **Ubicaciones de borde:** Centros de datos globales que almacenan y entregan el contenido.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9debffbb-7988-4422-b6a5-57bf96891bfe" width="900">
+</p>
 
 ### Opciones de seguridad
 - **AWS WAF:** Se integra para proteger contra ataques web comunes.
