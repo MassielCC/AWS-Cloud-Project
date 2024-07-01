@@ -21,6 +21,8 @@
 ## ElastiCache Serveless
 <p align="justify">ElastiCache sin servidor es una opción que permite implementar una caché en menos de un minuto sin necesidad de aprovisionar infraestructura ni planificar la capacidad. Supervisa continuamente la utilización de la red, memoria y procesamiento, permitiendo una escalabilidad instantánea para satisfacer la demanda sin tiempo de inactividad ni degradación del rendimiento.</p>
 
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/a050d9e2-ebd5-4565-8616-1c075b5e5c60)
+
 ## Motores de ElastiCache
 ### ElastiCache para Redis
 <p align="justify">Amazon ElastiCache para Redis es un servicio web que facilita la implementación, operación y escalado de una infraestructura compatible con Redis en la nube. Redis es una estructura de datos en memoria, de código abierto, que puede utilizarse como una base de datos, caché y agente de mensajes, conocida por su alto rendimiento y flexibilidad.</p>
