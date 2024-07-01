@@ -52,8 +52,8 @@
 - Reducir la latencia de acceso a memoria principal.
 - Mejorar el rendimiento en cálculos intensivos y procesamiento de datos.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/f828be53-d5fc-4036-8c17-a4e802385a86" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/23452963-6e20-43f8-9d93-5fbb7217d722" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/f828be53-d5fc-4036-8c17-a4e802385a86" width="490">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/23452963-6e20-43f8-9d93-5fbb7217d722" width="510">
 </div>
 
 ### Almacenamiento en caché de disco
