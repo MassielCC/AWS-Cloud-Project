@@ -9,13 +9,13 @@
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/07e1c6ef-0068-49bb-a539-a37114271a92" width="1000">
 </p>
 
-## Beneficios y Características
+### Características y Ventajas
 - Mejora el rendimiento de aplicaciones al reducir la latencia.
 - Optimiza costes al reducir la carga en bases de datos.
 - Elimina la necesidad de administrar la capacidad manualmente.
 - Soporta los motores de caché Redis y Memcached.
 
-## Casos de uso
+### Casos de uso
 - Almacenamiento en caché de datos de aplicaciones en tiempo real.
 - Almacenes de sesiones distribuidos.
 - Clasificaciones y tablas de líderes en tiempo real.
