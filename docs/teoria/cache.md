@@ -6,8 +6,8 @@
 ## Concepto de caché
 <p align="justify">En informática, una caché es una capa de almacenamiento de datos de alta velocidad que almacena un subconjunto de datos, normalmente transitorios, de modo que las solicitudes futuras de esos datos se entregan mucho más rápido sin tener que consultar a la fuente original de datos. En aplicaciones web, la caché se sitúa estratégicamente en el flujo de datos entre el cliente (solicitante de datos) y el servidor web (origen de los datos).</p>
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/38b46004-eb53-4772-8e9c-6339f937d2cf" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/5b1ecfa6-8bef-4eb5-b08e-6024d289e86e" width="440">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/38b46004-eb53-4772-8e9c-6339f937d2cf" width="510">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/5b1ecfa6-8bef-4eb5-b08e-6024d289e86e" width="410">
 </div>
 
 ## Almacenamiento de datos en caché
