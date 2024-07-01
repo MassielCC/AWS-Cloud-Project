@@ -52,27 +52,45 @@
 - Reducir la latencia de acceso a memoria principal.
 - Mejorar el rendimiento en cálculos intensivos y procesamiento de datos.
 
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/f828be53-d5fc-4036-8c17-a4e802385a86)
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/23452963-6e20-43f8-9d93-5fbb7217d722)
+
 ### Almacenamiento en caché de disco
 - Acelerar el acceso a archivos frecuentemente utilizados.
 - Mejorar el rendimiento de sistemas de archivos.
 - Optimizar operaciones de lectura/escritura en discos duros o SSD.
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c5f35726-439b-41ca-a66d-165ccf3451c0)
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d723f32a-e94c-4217-b9bc-22b2b29a6dc4)
 
 ### Almacenamiento en caché de CDN
 - Distribuir contenido estático (imágenes, CSS, JavaScript) globalmente.
 - Reducir la latencia para usuarios geográficamente distantes.
 - Aliviar la carga del servidor de origen.
 
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/843a596d-0d76-414d-b7eb-68a7e71994f7)
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/328eb46f-6ab4-4ae4-8c71-5475bec2fa26)
+
 ### Almacenamiento en caché de DNS
 - Reducir el tiempo de resolución de nombres de dominio.
 - Disminuir el tráfico hacia servidores DNS autoritativos.
 - Mejorar la velocidad de carga de páginas web.
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/7cb8c049-bc81-4065-96e5-85fae4daa2a9)
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9b910a1f-f364-4649-b006-71e0cec79f5c)
 
 ### Almacenamiento en caché web
 - Almacenar páginas HTML generadas dinámicamente.
 - Reducir la carga del servidor web.
 - Mejorar los tiempos de respuesta para contenido frecuentemente solicitado.
 
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e0dc6b21-8b3d-420c-b16b-853dde6af9e3)
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/43ee9169-45d9-4a37-9986-cf2dc31b4553)
+
 ### Almacenamiento en caché de bases de datos
 - Almacenar resultados de consultas frecuentes.
 - Reducir la carga en el servidor de base de datos.
 - Mejorar el rendimiento de aplicaciones con uso intensivo de datos.
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/420d62de-5538-456e-9a79-d6182777c509)
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/628e1a6c-f662-42a8-b6bd-03a4f4f40a91)
