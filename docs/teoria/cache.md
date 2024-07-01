@@ -12,9 +12,10 @@
 
 ## Almacenamiento de datos en caché
 <p align="justify">El almacenamiento de datos en caché permite reutilizar de forma eficaz los datos recuperados o calculados anteriormente. Los datos en una memoria caché suelen almacenarse en hardware de acceso rápido, como la memoria de acceso aleatorio (RAM).</p>
-
-![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/a25714df-111e-4c46-9698-8432d3b075a1)
-![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/1dbf480c-d4b7-40ea-a008-7564c877d2c4)
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/a25714df-111e-4c46-9698-8432d3b075a1" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/1dbf480c-d4b7-40ea-a008-7564c877d2c4" width="500">
+</div>
 
 #### Memoria de acceso aleatorio (RAM)
 <p align="justify">Almacenamiento de memoria volátil y temporal. Estos son los datos que se conservan temporalmente mientras un equipo está en uso; sin embargo, una vez que la máquina se apaga o se completa la tarea, estos datos desaparecen.</p>
