@@ -20,8 +20,10 @@
 
 ## ElastiCache Serveless
 <p align="justify">ElastiCache sin servidor es una opción que permite implementar una caché en menos de un minuto sin necesidad de aprovisionar infraestructura ni planificar la capacidad. Supervisa continuamente la utilización de la red, memoria y procesamiento, permitiendo una escalabilidad instantánea para satisfacer la demanda sin tiempo de inactividad ni degradación del rendimiento.</p>
-
-![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/a050d9e2-ebd5-4565-8616-1c075b5e5c60)
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/a050d9e2-ebd5-4565-8616-1c075b5e5c60" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/40a3d8d0-928d-4f52-8b36-4eeb3fe49d02" width="500">
+</div>
 
 ## Motores de ElastiCache
 ### ElastiCache para Redis
