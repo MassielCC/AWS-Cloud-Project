@@ -61,6 +61,6 @@
 - Mejorar los tiempos de respuesta para contenido frecuentemente solicitado.
 
 ### Almacenamiento en caché de bases de datos
-Almacenar resultados de consultas frecuentes.
-Reducir la carga en el servidor de base de datos.
-Mejorar el rendimiento de aplicaciones con uso intensivo de datos.
+- Almacenar resultados de consultas frecuentes.
+- Reducir la carga en el servidor de base de datos.
+- Mejorar el rendimiento de aplicaciones con uso intensivo de datos.
