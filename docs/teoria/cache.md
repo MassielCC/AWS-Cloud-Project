@@ -88,8 +88,8 @@
 - Reducir la carga del servidor web.
 - Mejorar los tiempos de respuesta para contenido frecuentemente solicitado.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e0dc6b21-8b3d-420c-b16b-853dde6af9e3" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/43ee9169-45d9-4a37-9986-cf2dc31b4553" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e0dc6b21-8b3d-420c-b16b-853dde6af9e3" width="400">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/43ee9169-45d9-4a37-9986-cf2dc31b4553" width="600">
 </div>
 
 ### Almacenamiento en caché de bases de datos
