@@ -20,8 +20,8 @@
 #### Memoria de acceso aleatorio (RAM)
 <p align="justify">Almacenamiento de memoria volátil y temporal. Estos son los datos que se conservan temporalmente mientras un equipo está en uso; sin embargo, una vez que la máquina se apaga o se completa la tarea, estos datos desaparecen.</p>
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c748a2d9-6b43-407f-a73c-452cd42413c8" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9114233a-356c-4b42-98df-ef458c75e328" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c748a2d9-6b43-407f-a73c-452cd42413c8" width="490">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9114233a-356c-4b42-98df-ef458c75e328" width="510">
 </div>
 
 ## Importancia de la caché en el rendimiento de las aplicaciones
