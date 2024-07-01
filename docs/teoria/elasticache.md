@@ -28,6 +28,9 @@
 ## Motores de ElastiCache
 ### ElastiCache para Redis
 <p align="justify">Amazon ElastiCache para Redis es un servicio web que facilita la implementación, operación y escalado de una infraestructura compatible con Redis en la nube. Redis es una estructura de datos en memoria, de código abierto, que puede utilizarse como una base de datos, caché y agente de mensajes, conocida por su alto rendimiento y flexibilidad.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/149522e1-43c9-4710-8460-78575294fb21" width="900">
+</p>
 
 #### Características y Ventajas
 - Almacena datos en memoria RAM para ofrecer alta velocidad y baja latencia.
@@ -37,6 +40,9 @@
 ### ElastiCache para Memcached
 <p align="justify">
 Amazon ElastiCache para Memcached es un servicio web que facilita la implementación, operación y escalado de un almacén de datos en memoria compatible con Memcached en la nube. Memcached es un sistema de caché distribuido y de código abierto que acelera aplicaciones web dinámicas al reducir la carga de la base de datos al almacenar en caché datos y objetos en la memoria RAM.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/7b7d1500-50f6-4be0-8226-10f5a4c71f0e" width="900">
+</p>
 
 #### Características y Ventajas
 - Facilita la implementación sin configuraciones complicadas.
