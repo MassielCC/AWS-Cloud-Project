@@ -43,8 +43,14 @@
 - **Certificados SSL/TLS:** Soporta HTTPS para conexiones seguras.
 - **Signed URLs y Signed Cookies:** Para controlar el acceso al contenido.
 - **Field-Level Encryption:** Protege datos sensibles durante la transmisión.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/70a3e879-485f-45af-95cf-66fcf3a13697" width="900">
+</p>
 
 ### Optimización del rendimiento
 - **Compresión automática:** Reduce el tamaño de los archivos para una entrega más rápida.
 - **TCP Anycast:** Mejora la conectividad y reduce la latencia.
 - **Origin Shield:** Capa adicional de caché para reducir la carga en el origen.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/54f7fdfa-0139-4e2a-a119-185bd3ac5006" width="900">
+</p>
