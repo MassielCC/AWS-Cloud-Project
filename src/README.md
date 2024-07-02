@@ -8,7 +8,7 @@ Este repositorio contiene el código fuente y scripts relacionados con la implem
 </p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/bf5121de-8d54-4736-8426-411938176950">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/df51f926-7464-4720-a2a3-be64cd14c4fd" width="700">
 </p>
 
 ## Contenido
