@@ -1,4 +1,4 @@
-![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ef051abc-e3e5-464d-a273-867cf0ff80c4)<p align="left">
+<p align="left">
   <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
   <h1 align="center">Ejercicios desarrollados en AWS Lab Learner</h1>
 </p>
@@ -14,7 +14,7 @@
 ### Configuración de ElastiCache utilizando Memcached
 ### 1.	Configurar instancia EC2**
 Requisitos: Deben tener el mismo VPC y grupo de seguridad. Amazon ElastiCache crea el caché en el VPC por default y usa el grupo de seguridad por default.
-  
+
 ![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2d393cc-6bd3-446a-a5dd-847e297899e8)
 
 Conectar la instancia EC2 con SSH
