@@ -1,4 +1,8 @@
-## 4. Caché con Amazon CloudFront
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Ejercicio 4: Caché con Amazon CloudFront</h1>
+</p>
+
 •	Configuración de CloudFront para distribuir contenido estático y dinámico.
 •	Integración de CloudFront con S3 y EC2 para mejorar la entrega de contenido.
 
