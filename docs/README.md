@@ -21,7 +21,7 @@ Este repositorio contiene la documentación principal y recursos relacionados co
 - Conocimientos básicos de AWS y servicios en la nube.
 - Acceso a una cuenta de AWS para practicar (se recomienda una cuenta gratuita para estudiantes).
 - Conocimientos de programación básicos.
-- Editor de texto o IDE de tu preferencia.
+- Editor de texto o IDE.
 
 ## Contribución
 Si deseas contribuir a este repositorio con nuevos materiales o mejoras, ¡eres bienvenido! Por favor, envía una solicitud de extracción con tus cambios propuestos.
