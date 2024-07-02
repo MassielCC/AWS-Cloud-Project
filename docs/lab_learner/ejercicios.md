@@ -7,6 +7,7 @@
 •	Configuración de CloudFront para distribuir contenido estático y dinámico.
 •	Integración de CloudFront con S3 y EC2 para mejorar la entrega de contenido.
 
+### Integración de CloudFront con S3
 ### 1. Crear bucket S3
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/af7fbaa2-8190-4649-ab19-da906e12a44a" width="800">
@@ -109,6 +110,57 @@ A continución se muestran las principales diferencias:
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/b6068f10-992a-40ff-9519-cf42d2c66f6e" width="800">
 </p>
+
+
+### Integración de CloudFront con EC2
+### 1. Crear instancia EC2 y conectarlo por SSH
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2b572b2-7068-40fb-b421-872579d91378" width="800">
+</p>
+
+### 2. Configurar la instancia EC2 como servidor web
+**Grupo de seguridad**
+Se debe configurar el grupo de seguridad de la instancia EC2
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/1036e804-ef09-4f31-a612-e15ae1161ad5" width="800">
+</p>
+
+**Servidor web**
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2b572b2-7068-40fb-b421-872579d91378" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/cbd7b4b2-8d0d-48c9-ac53-e4697f090ea2" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ef73dcb7-a357-4269-a7f5-45716feb336e" width="800"></p>
+
+Podemos acceder al servidor web con el Dominio de IPv4 público de la instancia EC2 
+
+Accedemos a la carpeta en la que se almacenan los recursos que se mostrarán desde el servidor web
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/f06d65a1-c70c-49c4-a402-43370e18b6a7" width="800"></p>
+
+Creamos una página HTML sencilla
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/62face81-f9f9-4b28-a16f-44c847f12baa" width="800"></p>
+
+### 3. Creación de la distribución CloudFront
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c62cac88-8728-4d4f-b3bf-5a1648aa1b87" width="800"></p>
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/499fee74-3184-4f3d-b803-eccf5e116efd" width="800"></p>
+
+Debido a la falta de permisos para la creación de una distribución de CloudFront del Lab Learner se optó por usar el laboratorio del módulo 5 y se uso como origin la instancia EC2 previamente creada con la cuenta de Lab Learner. El origin que se usa para crear una distribución de CloudFront no debe ser necesarimente un servicio de AWS y tampoco es requisito que se hayan creado con la misma cuenta.
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/2f49f372-be3e-44d1-9cfe-cddeda7b4d7f" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c17c0ccd-ed9f-465f-87b2-78500b2d119a" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9367e11c-f066-4b90-acfe-3e1ff48992e1" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/91a6e24e-26c1-4199-b6e1-0c552d76971a" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/7fa038bc-d1c2-482f-a893-5b62d540e6ed" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d4db5635-efbb-4c05-8e0c-b64cda8d67a7" width="800"></p>
+
+Si se quiere acceder al servidor web a través de HTTPS, el necesario contar con un certificado SSL. Podemos solicitarselo a Amazon
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/fd77aa21-cca4-45f0-b811-929684514062" width="800"></p>
 
 
 
