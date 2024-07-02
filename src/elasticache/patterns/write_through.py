@@ -1,4 +1,4 @@
-import logging
+import logging  # Importa el módulo de logging para registrar eventos
 
 def write_through_get(redis_client, key, slow_database_get):
     """
@@ -7,17 +7,17 @@ def write_through_get(redis_client, key, slow_database_get):
     En Write-Through, las lecturas son similares a Cache-Aside y Read-Through.
     """
     try:
-        value = redis_client.get(key)
+        value = redis_client.get(key)  # Intenta obtener el valor desde la caché
         if value is None:
-            logging.info(f"Cache miss para {key}")
-            value = slow_database_get(key)
-            redis_client.set(key, value, ex=3600)  # Expira en 1 hora
+            logging.info(f"Cache miss para {key}")  # Registra un cache miss si el valor no está en la caché
+            value = slow_database_get(key)  # Obtiene el valor de la base de datos
+            redis_client.set(key, value, ex=3600)  # Guarda el valor en la caché con expiración de 1 hora
         else:
-            logging.info(f"Cache hit para {key}")
-        return value
+            logging.info(f"Cache hit para {key}")  # Registra un cache hit si el valor está en la caché
+        return value  # Retorna el valor obtenido (ya sea de la caché o de la base de datos)
     except Exception as e:
-        logging.error(f"Error en write_through_get: {e}")
-        return slow_database_get(key)
+        logging.error(f"Error en write_through_get: {e}")  # Registra un error si ocurre alguna excepción
+        return slow_database_get(key)  # Retorna el valor obtenido directamente de la base de datos en caso de error
 
 def write_through_set(redis_client, key, value, slow_database_set):
     """
@@ -31,10 +31,9 @@ def write_through_set(redis_client, key, value, slow_database_set):
         slow_database_set(key, value)
         
         # Luego, actualizar la caché
-        redis_client.set(key, value, ex=3600)  # Expira en 1 hora
+        redis_client.set(key, value, ex=3600)  # Actualiza el valor en la caché con expiración de 1 hora
         
-        logging.info(f"Valor actualizado en base de datos y caché para {key}")
+        logging.info(f"Valor actualizado en base de datos y caché para {key}")  # Registra el evento de actualización exitosa
     except Exception as e:
-        logging.error(f"Error en write_through_set: {e}")
-        # En caso de error, asegurarse de que la caché y la base de datos estén sincronizadas
-        redis_client.delete(key)
+        logging.error(f"Error en write_through_set: {e}")  # Registra un error si ocurre alguna excepción
+        redis_client.delete(key)  # Invalida la entrada en la caché en caso de error
