@@ -10,7 +10,7 @@
 ### Configuración de ElastiCache utilizando Redis
 
 ### Configuración de ElastiCache utilizando Memcached
-### 1.	Configurar instancia EC2**
+### 1. Configurar instancia EC2
 Requisitos: Deben tener el mismo VPC y grupo de seguridad. Amazon ElastiCache crea el caché en el VPC por default y usa el grupo de seguridad por default.
 
 ![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2d393cc-6bd3-446a-a5dd-847e297899e8)
@@ -24,7 +24,7 @@ Protocolo de red que nos permite conectarnos a la instancia EC2 de forma segura.
 
 La clave privada asociada a la instancia EC2 solo se puede descargar durante el lanzamiento inicial, está se debe almacenar en un lugar seguro. Para asegurar el éxito de la conexión también es importante configurar el grupo de seguridad de la instancia de forma que permita tráfico desde el puerto 22; que es el puerto utilizado por SSH.
 
-### 2.	ElastiCache con Memcached**
+### 2. ElastiCache con Memcached
 ![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d4a4b831-663d-4aa4-95ea-0b95b045241c)
 
 ![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/44a62595-1511-490c-bfa1-ee08ae4e1914)
