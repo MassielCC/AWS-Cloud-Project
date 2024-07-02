@@ -1,7 +1,63 @@
-<p align="left">
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ef051abc-e3e5-464d-a273-867cf0ff80c4)<p align="left">
   <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
   <h1 align="center">Ejercicios desarrollados en AWS Lab Learner</h1>
 </p>
+
+## 2. Caché con Amazon ElastiCache
+•	Configuración de un entorno ElastiCache utilizando Redis y Memcached.
+  o	Redis: Tablas hash.
+  o	Memcached: clave-valor no relacional.
+•	Prácticas de implementación y optimización de caché para aplicaciones de datos.
+
+### Configuración de ElastiCache utilizando Redis
+
+### Configuración de ElastiCache utilizando Memcached
+### 1.	Configurar instancia EC2**
+Requisitos: Deben tener el mismo VPC y grupo de seguridad. Amazon ElastiCache crea el caché en el VPC por default y usa el grupo de seguridad por default.
+  
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2d393cc-6bd3-446a-a5dd-847e297899e8)
+
+Conectar la instancia EC2 con SSH
+`ssh -i “ubicación de la llave privada de la instancia EC2” <dirección IP pública de la instancia>`
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d9816914-16ac-4894-9f32-d4cc4c51c912)
+
+**SSH= Secure Shell**
+Protocolo de red que nos permite conectarnos a la instancia EC2 de forma segura. Provee comunicación encriptada entre la computadora y la instancia EC2. 
+
+La clave privada asociada a la instancia EC2 solo se puede descargar durante el lanzamiento inicial, está se debe almacenar en un lugar seguro. Para asegurar el éxito de la conexión también es importante configurar el grupo de seguridad de la instancia de forma que permita tráfico desde el puerto 22; que es el puerto utilizado por SSH.
+
+### 2.	ElastiCache con Memcached**
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d4a4b831-663d-4aa4-95ea-0b95b045241c)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/44a62595-1511-490c-bfa1-ee08ae4e1914)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/90bc5e07-45fe-4f0e-92c6-1c78542f4bec)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/a9e5a474-c885-4af9-9e6f-13523115af47)
+
+**Puerto 11211:** Puerto estándar utilizado por Memcached. La configuración de seguridad debe permitir la conexión desde este puerto.
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/fb491a31-8af4-49cf-aa16-112483d30de3)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/77b5ed01-8ec4-43b2-a142-d92f87adca63)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/04edf6d8-edbc-4de1-a5e0-48c6d3119ade)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/47afb456-e5ef-45f1-8ec1-104c586e2e94)
+
+Grupo de seguridad
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/a92be97d-9e8b-455c-915d-51e9fabbf203)
+
+### 3. Conectar instancia EC2 con el clúster de Memcached
+Instalamos memcached desde Cloud9 debido a dificultades de configuración desde Windows
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/2c882e0a-e1e1-4cef-bf03-9961ffada58e)
+
+**Cloud9**
+Es un entorno de desarrollo integrado (IDE) de Amazon que se crea como una instancia de Amazon EC2
+-	Evita la necesidad de configurar un entorno de desarrollo local, se usó como solución al problema de conexión con instancias EC2 de manera local desde Windows 
+-	Facilita el acceso a los recursos de AWS
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/36a74af9-e83a-4a4a-9827-4ebca261896d)
 
 ## 4. Caché con Amazon CloudFront
 •	Configuración de CloudFront para distribuir contenido estático y dinámico.
@@ -64,11 +120,9 @@
 
 Nota: No se cuenta con los permisos para crear una política de caché
 
-## WAF
+## WAF: Web Application Firewall
 
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e665d02c-48d6-43d6-ab36-5ebb48d2a8d0" width="800">
-</p>
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e665d02c-48d6-43d6-ab36-5ebb48d2a8d0" width="800"></p>
 
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ee11fb38-e1b8-49bc-a6bd-01e592c93dd0" width="800"></p>
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ba37cfa7-53f4-47ec-81b7-8bc40680c270" width="800"></p>
@@ -105,13 +159,6 @@ A continución se muestran las principales diferencias:
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/8e113f0a-21a0-4289-904c-b386dbd5df23" width="800">
 </p>
 
-
-- No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en Lab Learner ni el laboratorio que se utilizó para crear la distribución de CloudFront
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/b6068f10-992a-40ff-9519-cf42d2c66f6e" width="800">
-</p>
-
-
 ### Integración de CloudFront con EC2
 ### 1. Crear instancia EC2 y conectarlo por SSH
 <p align= "center">
@@ -138,7 +185,9 @@ Accedemos a la carpeta en la que se almacenan los recursos que se mostrarán des
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/f06d65a1-c70c-49c4-a402-43370e18b6a7" width="800"></p>
 
 Creamos una página HTML sencilla
-<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/62face81-f9f9-4b28-a16f-44c847f12baa" width="800"></p>
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/1f4860df-220f-4456-8f93-da15c5acfcce" width="800"></p>
+
+<p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9188b92c-31d6-47e6-9e86-82270bf911ff" width="800"></p>
 
 ### 3. Creación de la distribución CloudFront
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c62cac88-8728-4d4f-b3bf-5a1648aa1b87" width="800"></p>
@@ -162,7 +211,14 @@ Si se quiere acceder al servidor web a través de HTTPS, el necesario contar con
 
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/fd77aa21-cca4-45f0-b811-929684514062" width="800"></p>
 
+## 6. Implementación de CloudFront para caché y seguridad de aplicaciones
+•	Configuración de CloudFront para la protección de aplicaciones mediante WAF (Web Application Firewall).
+•	Experimentación con reglas de seguridad y políticas de caché.
 
+- No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en Lab Learner ni el laboratorio que se utilizó para crear la distribución de CloudFront
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/b6068f10-992a-40ff-9519-cf42d2c66f6e" width="800">
+</p>
 
 
 
