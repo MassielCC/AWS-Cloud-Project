@@ -7,7 +7,7 @@
 - Configuración de CloudFront para la protección de aplicaciones mediante WAF (Web Application Firewall).
 - Experimentación con reglas de seguridad y políticas de caché.
 
-- No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en Lab Learner ni el laboratorio que se utilizó para crear la distribución de CloudFront
+No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en Lab Learner ni el laboratorio que se utilizó para crear la distribución de CloudFront
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/b6068f10-992a-40ff-9519-cf42d2c66f6e" width="800">
 </p>
