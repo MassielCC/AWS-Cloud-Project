@@ -27,8 +27,8 @@
 - **Laboratorios de arquitectura:** Para aprender a diseñar soluciones en la nube.
 - **Laboratorios de seguridad:** Centrados en prácticas de seguridad en AWS.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/84b1e53c-fb5a-4911-8ff3-6f693376645e" width="500">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/09ed24b4-6254-4d87-b580-b10b39dcd91e" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/84b1e53c-fb5a-4911-8ff3-6f693376645e" width="490">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/09ed24b4-6254-4d87-b580-b10b39dcd91e" width="510">
 </div>
 
 ### Componentes clave
