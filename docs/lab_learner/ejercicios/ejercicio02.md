@@ -3,10 +3,9 @@
   <h1 align="center">Ejercicio 2: Caché con Amazon ElastiCache</h1>
 </p>
 
-•	Configuración de un entorno ElastiCache utilizando Redis y Memcached.
-  o	Redis: Tablas hash.
-  o	Memcached: clave-valor no relacional.
-•	Prácticas de implementación y optimización de caché para aplicaciones de datos.
+## Objetivos
+- Configuración de un entorno ElastiCache utilizando Redis y Memcached.<br>- Redis: Tablas hash.<br>- Memcached: clave-valor no relacional.
+- Prácticas de implementación y optimización de caché para aplicaciones de datos.
 
 ### Configuración de ElastiCache utilizando Redis
 
