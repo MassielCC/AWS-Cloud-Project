@@ -17,8 +17,8 @@
 - Facilita el aprendizaje práctico de conceptos y tecnologías de AWS.
 - Adaptado tanto para principiantes como para usuarios avanzados.
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/ac6e5432-7b61-4a8c-a232-8da1c1e54381" width="520">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/99fe7e7e-66fd-485c-9f6e-32c34ba5fdbe" width="451">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/ac6e5432-7b61-4a8c-a232-8da1c1e54381" width="500">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/99fe7e7e-66fd-485c-9f6e-32c34ba5fdbe" width="500">
 </div>
 
 ### Tipos de Laboratorios
