@@ -6,7 +6,7 @@
 ## Concepto de AWS Lab Learner
 <p align="justify">AWS Lab Learner es una plataforma de aprendizaje interactiva diseñada por Amazon Web Services (AWS) para proporcionar experiencia práctica con los servicios y tecnologías de AWS. Esta plataforma ofrece entornos de laboratorio guiados que permiten a los usuarios explorar, experimentar y aprender sobre diversos servicios de AWS en un entorno seguro y controlado.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/d10056df-3c69-402c-8191-bd01fe935898" width="700">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/d10056df-3c69-402c-8191-bd01fe935898" width="600">
 </p>
 
 ### Características y Ventajas
