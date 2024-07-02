@@ -6,6 +6,16 @@ def read_through_get(redis_client, key, slow_database_get):
     
     En este patrón, la caché es responsable de cargar los datos faltantes
     desde la base de datos.
+
+    Parámetros
+    ---
+    redis_client: Cliente Redis para operaciones de caché.
+    key: Clave para la operación de lectura.
+    slow_database_get: Función que simula una lectura lenta desde la base de datos.
+
+    Retorna
+    ---
+    Valor obtenido, ya sea desde la caché o desde la base de datos.
     """
     try:
         value = redis_client.get(key)  # Intenta obtener el valor desde la caché
@@ -25,6 +35,17 @@ def read_through_set(redis_client, key, value, slow_database_set):
     Implementa el patrón Read-Through para operaciones de escritura.
     
     En Read-Through, las escrituras se manejan de manera similar a Cache-Aside.
+
+    Parámetros
+    ---
+    redis_client: Cliente Redis para operaciones de caché.
+    key: Clave para la operación de escritura.
+    value: Valor a escribir en la base de datos y en la caché.
+    slow_database_set: Función que simula una escritura lenta en la base de datos.
+
+    Retorna
+    ---
+    No retorna ningún valor explícito.
     """
     try:
         slow_database_set(key, value)  # Escribe el valor en la base de datos de manera lenta

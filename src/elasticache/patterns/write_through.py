@@ -5,6 +5,16 @@ def write_through_get(redis_client, key, slow_database_get):
     Implementa el patrón Write-Through para operaciones de lectura.
     
     En Write-Through, las lecturas son similares a Cache-Aside y Read-Through.
+
+    Parámetros
+    ---
+    redis_client: Cliente Redis para operaciones de caché.
+    key: Clave para la operación de lectura.
+    slow_database_get: Función que simula una lectura lenta desde la base de datos.
+
+    Retorna
+    ---
+    Valor obtenido, ya sea desde la caché o desde la base de datos.
     """
     try:
         value = redis_client.get(key)  # Intenta obtener el valor desde la caché
@@ -25,6 +35,17 @@ def write_through_set(redis_client, key, value, slow_database_set):
     
     En Write-Through, las escrituras se realizan primero en la base de datos
     y luego se actualiza la caché.
+
+    Parámetros
+    ---
+    redis_client: Cliente Redis para operaciones de caché.
+    key: Clave para la operación de escritura.
+    value: Valor a escribir en la base de datos y en la caché.
+    slow_database_set: Función que simula una escritura lenta en la base de datos.
+
+    Retorna
+    ---
+    No retorna ningún valor explícito.
     """
     try:
         # Primero, escribir en la base de datos

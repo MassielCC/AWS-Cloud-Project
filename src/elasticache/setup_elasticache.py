@@ -8,7 +8,14 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 def save_to_file(filename, content):
-    """Guarda el contenido en un archivo dentro del directorio 'data'."""
+    """
+    Guarda el contenido en un archivo dentro del directorio 'data'.
+
+    Parámetros
+    ---
+    filename: Nombre del archivo donde se guardará el contenido.
+    content: Contenido a guardar en el archivo.
+    """
     directory = 'data'
     if not os.path.exists(directory):  # Verifica si el directorio 'data' existe
         os.makedirs(directory)  # Crea el directorio 'data' si no existe
@@ -17,7 +24,19 @@ def save_to_file(filename, content):
         f.write(content)  # Escribe el contenido en el archivo
 
 def create_security_group(client, group_name, description):
-    """Crea un grupo de seguridad o recupera uno existente."""
+    """
+    Crea un grupo de seguridad o recupera uno existente.
+
+    Parámetros
+    ---
+    client: Cliente de AWS para interactuar con EC2.
+    group_name: Nombre del grupo de seguridad a crear/recuperar.
+    description: Descripción del grupo de seguridad.
+
+    Retorna
+    ---
+    ID del grupo de seguridad creado/recuperado.
+    """
     try:
         response = client.create_security_group(
             Description=description,
@@ -39,7 +58,14 @@ def create_security_group(client, group_name, description):
             raise
 
 def configure_security_group(client, group_id):
-    """Configura las reglas de entrada para el grupo de seguridad."""
+    """
+    Configura las reglas de entrada para el grupo de seguridad.
+
+    Parámetros
+    ---
+    client: Cliente de AWS para interactuar con EC2.
+    group_id: ID del grupo de seguridad a configurar.
+    """
     try:
         client.authorize_security_group_ingress(
             GroupId=group_id,
@@ -61,7 +87,20 @@ def configure_security_group(client, group_id):
             raise
 
 def create_cache_subnet_group(client, subnet_group_name, subnet_ids, description):
-    """Crea un grupo de subredes para ElastiCache o recupera uno existente."""
+    """
+    Crea un grupo de subredes para ElastiCache o recupera uno existente.
+
+    Parámetros
+    ---
+    client: Cliente de AWS para interactuar con ElastiCache.
+    subnet_group_name: Nombre del grupo de subredes a crear/recuperar.
+    subnet_ids: IDs de las subredes asociadas al grupo.
+    description: Descripción del grupo de subredes.
+
+    Retorna
+    ---
+    Nombre del grupo de subredes creado/recuperado.
+    """
     try:
         response = client.create_cache_subnet_group(
             CacheSubnetGroupName=subnet_group_name,
@@ -84,7 +123,22 @@ def create_cache_subnet_group(client, subnet_group_name, subnet_ids, description
             raise
 
 def create_cache_cluster(client, cluster_id, node_type, engine_version, subnet_group_name, security_group_ids):
-    """Crea un clúster de ElastiCache o recupera uno existente."""
+    """
+    Crea un clúster de ElastiCache o recupera uno existente.
+
+    Parámetros
+    ---
+    client: Cliente de AWS para interactuar con ElastiCache.
+    cluster_id: ID del clúster de ElastiCache a crear/recuperar.
+    node_type: Tipo de nodo del clúster.
+    engine_version: Versión del motor de ElastiCache.
+    subnet_group_name: Nombre del grupo de subredes asociado al clúster.
+    security_group_ids: IDs de los grupos de seguridad asociados al clúster.
+
+    Retorna
+    ---
+    ID del clúster de ElastiCache creado/recuperado.
+    """
     try:
         response = client.create_cache_cluster(
             CacheClusterId=cluster_id,
@@ -112,7 +166,20 @@ def create_cache_cluster(client, cluster_id, node_type, engine_version, subnet_g
             raise
 
 def wait_for_node_info(client, cluster_id, max_attempts=10, delay=200):
-    """Espera a que la información del nodo esté disponible."""
+    """
+    Espera a que la información del nodo esté disponible.
+
+    Parámetros
+    ---
+    client: Cliente de AWS para interactuar con ElastiCache.
+    cluster_id: ID del clúster de ElastiCache.
+    max_attempts: Número máximo de intentos antes de lanzar un error.
+    delay: Tiempo de espera entre intentos en segundos.
+
+    Retorna
+    ---
+    Dirección del endpoint Redis del clúster.
+    """
     for attempt in range(max_attempts):
         try:
             cluster_info = client.describe_cache_clusters(CacheClusterId=cluster_id, ShowCacheNodeInfo=True)

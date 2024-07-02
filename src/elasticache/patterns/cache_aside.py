@@ -6,6 +6,16 @@ def cache_aside_get(redis_client, key, slow_database_get):
     
     1. Intenta obtener el valor de la caché.
     2. Si no está en la caché, lo obtiene de la base de datos y lo guarda en la caché.
+
+    Parámetros
+    ---
+    redis_client: Cliente Redis para operaciones de caché.
+    key: Clave para la operación de lectura.
+    slow_database_get: Función que simula una lectura lenta desde la base de datos.
+
+    Retorna
+    ---
+    Valor obtenido, ya sea desde la caché o desde la base de datos.
     """
     try:
         value = redis_client.get(key)  # Intenta obtener el valor desde la caché
@@ -26,6 +36,17 @@ def cache_aside_set(redis_client, key, value, slow_database_set):
     
     1. Escribe el valor en la base de datos.
     2. Actualiza o invalida la entrada en la caché.
+
+    Parámetros
+    ---
+    redis_client: Cliente Redis para operaciones de caché.
+    key: Clave para la operación de escritura.
+    value: Valor a escribir en la base de datos y en la caché.
+    slow_database_set: Función que simula una escritura lenta en la base de datos.
+
+    Retorna
+    ---
+    No retorna ningún valor explícito.
     """
     try:
         slow_database_set(key, value)  # Escribe el valor en la base de datos de manera lenta

@@ -1,34 +1,79 @@
-import redis
-import os
-import random
-import string
-import timeit
-import time
-import logging
-from patterns.cache_aside import cache_aside_get, cache_aside_set
-from patterns.read_through import read_through_get, read_through_set
-from patterns.write_through import write_through_get, write_through_set
+import redis  # Importa la biblioteca Redis para interactuar con Redis
+import os  # Importa el módulo os para operaciones relacionadas con el sistema operativo
+import random  # Importa el módulo random para generación de valores aleatorios
+import string  # Importa el módulo string para operaciones con cadenas de caracteres
+import timeit  # Importa el módulo timeit para medición precisa de tiempo de ejecución
+import time  # Importa el módulo time para operaciones relacionadas con el tiempo
+import logging  # Importa el módulo logging para registro de eventos
+from patterns.cache_aside import cache_aside_get, cache_aside_set  # Importa funciones para patrón Cache-Aside
+from patterns.read_through import read_through_get, read_through_set  # Importa funciones para patrón Read-Through
+from patterns.write_through import write_through_get, write_through_set  # Importa funciones para patrón Write-Through
 
 # Configurar logging para registrar eventos importantes
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 def load_from_file(filename):
-    """Carga el contenido de un archivo desde el directorio 'data'."""
+    """
+    Carga el contenido de un archivo desde el directorio 'data'.
+
+    Parámetros
+    ---
+    filename: Nombre del archivo a cargar.
+
+    Retorna
+    ---
+    Contenido del archivo cargado como cadena de texto.
+    """
     filepath = os.path.join('data', filename)  # Obtiene la ruta completa del archivo en el directorio 'data'
     with open(filepath, 'r') as f:  # Abre el archivo en modo lectura
         return f.read().strip()  # Lee el contenido del archivo y elimina espacios en blanco al inicio y final
 
 def slow_database_get(key):
-    """Simula una lectura lenta de base de datos."""
+    """
+    Simula una operación lenta de lectura desde una base de datos.
+
+    Parámetros
+    ---
+    key: Clave de la base de datos para la operación de lectura.
+
+    Retorna
+    ---
+    Valor aleatorio generado como cadena de texto.
+    """
     time.sleep(0.1)  # Simula una operación de lectura lenta
     return ''.join(random.choices(string.ascii_letters + string.digits, k=10))  # Genera un valor aleatorio
 
 def slow_database_set(key, value):
-    """Simula una escritura lenta en base de datos."""
+    """
+    Simula una operación lenta de escritura en una base de datos.
+
+    Parámetros
+    ---
+    key: Clave de la base de datos para la operación de escritura.
+    value: Valor a escribir en la base de datos.
+
+    Retorna
+    ---
+    No retorna ningún valor explícito.
+    """
     time.sleep(0.1)  # Simula una operación de escritura lenta
 
 def measure_performance(pattern_get, pattern_set, redis_client, num_operations=500, read_ratio=0.8):
-    """Mide el rendimiento de un patrón de caché."""
+    """
+    Mide el rendimiento de un patrón de caché.
+
+    Parámetros
+    ---
+    pattern_get: Función para obtener datos usando el patrón de caché.
+    pattern_set: Función para establecer datos usando el patrón de caché.
+    redis_client: Cliente Redis para las operaciones de caché.
+    num_operations: Número total de operaciones a realizar.
+    read_ratio: Proporción de operaciones de lectura respecto a las de escritura.
+
+    Retorna
+    ---
+    Diccionario con métricas de rendimiento: tiempo transcurrido, operaciones por segundo y ratio de aciertos en caché.
+    """
     keys = [f"key-{i}" for i in range(num_operations)]  # Genera claves para operaciones
     values = [''.join(random.choices(string.ascii_letters + string.digits, k=10)) for _ in range(num_operations)]  # Genera valores aleatorios para operaciones
 
@@ -59,7 +104,18 @@ def measure_performance(pattern_get, pattern_set, redis_client, num_operations=5
     }
 
 def save_results(filename, results):
-    """Guarda los resultados en un archivo."""
+    """
+    Guarda los resultados de rendimiento en un archivo.
+
+    Parámetros
+    ---
+    filename: Nombre del archivo donde se guardarán los resultados.
+    results: Diccionario con los resultados de rendimiento.
+
+    Retorna
+    ---
+    No retorna ningún valor explícito.
+    """
     content = "\n".join([f"{name}:\n  Tiempo: {data['elapsed_time']:.2f} segundos\n  Operaciones/seg: {data['operations_per_second']:.2f}\n  Ratio de aciertos: {data['hit_ratio']:.2f}" for name, data in results.items()])
     filepath = os.path.join('data', filename)  # Obtiene la ruta completa del archivo en el directorio 'data'
     with open(filepath, 'w') as f:  # Abre el archivo en modo escritura
@@ -67,6 +123,9 @@ def save_results(filename, results):
     logging.info(f"Resultados guardados en '{filepath}'")  # Registra un evento de guardado exitoso
 
 def main():
+    """
+    Función principal que ejecuta el programa para medir el rendimiento de diferentes patrones de caché.
+    """
     cluster_id = input("ID del clúster: ")  # Solicita al usuario el ID del clúster
     redis_endpoint = load_from_file(f'{cluster_id}_redis_endpoint.txt')  # Carga el endpoint de Redis desde un archivo
 
