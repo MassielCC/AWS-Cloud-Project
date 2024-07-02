@@ -1,4 +1,8 @@
-## 6. Implementación de CloudFront para caché y seguridad de aplicaciones
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Ejercicio 6: Implementación de CloudFront para caché y seguridad de aplicaciones</h1>
+</p>
+
 •	Configuración de CloudFront para la protección de aplicaciones mediante WAF (Web Application Firewall).
 •	Experimentación con reglas de seguridad y políticas de caché.
 
