@@ -12,8 +12,8 @@ Este repositorio contiene nuestro proyecto que está dedicado a la optimización
 ## Contenido
 | Nombre de Carpeta  | Descripción  |
 | :------------: | :------------: |
-| <a href=".github">.github</a>  | <p align="justify">Configuraciones para GitHub Actions y plantillas para issues y pull requests. Incluye workflows de CI y plantillas para mantener la calidad del proyecto.</p>  |
-| <a href="docs">docs</a>  | <p align="justify">Documentación del proyecto, incluyendo teoría sobre servicios de AWS, guías para AWS Lab Learner y documentación de la API. Ideal para comprender los conceptos y guías prácticas.</p>  |
+| <a href=".github">.github</a>  | <p align="justify">Plantillas para issues y pull requests para mantener la calidad del proyecto.</p>  |
+| <a href="docs">docs</a>  | <p align="justify">Documentación del proyecto, incluyendo teoría sobre servicios de AWS, guías para AWS Lab Learner y documentación del código. Ideal para comprender los conceptos y guías prácticas.</p>  |
 | <a href="src">src</a>  | <p align="justify">Código fuente del proyecto, organizado por servicio AWS y componentes de Docker. Incluye scripts específicos para ElastiCache, CloudFront, WAF y utilidades auxiliares.</p>  |
 | <a href="LICENSE">LICENSE</a>  | <p align="justify">Archivo de licencia del proyecto. Define los términos bajo los cuales se distribuye el proyecto.</p>  |
 
