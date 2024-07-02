@@ -6,7 +6,7 @@
 Este repositorio contiene una plantilla de proyecto dedicada a la optimización y seguridad de aplicaciones utilizando servicios de caché en AWS. La estructura del proyecto incluye documentación detallada, ejemplos prácticos y scripts para configurar y manejar servicios como Amazon ElastiCache, Amazon CloudFront y AWS WAF. Este proyecto está diseñado para ayudar a los desarrolladores a mejorar el rendimiento y la seguridad de sus aplicaciones mediante la implementación de patrones de caché y políticas de seguridad efectivas.</p>
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/26763eeb-43bf-44d3-b6d7-947c035ab9b2">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/26763eeb-43bf-44d3-b6d7-947c035ab9b2" width="800">
 </p>
 
 ## Contenido
