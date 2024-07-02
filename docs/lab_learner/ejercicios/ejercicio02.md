@@ -1,4 +1,8 @@
-## 2. Caché con Amazon ElastiCache
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Ejercicio 2: Caché con Amazon ElastiCache</h1>
+</p>
+
 •	Configuración de un entorno ElastiCache utilizando Redis y Memcached.
   o	Redis: Tablas hash.
   o	Memcached: clave-valor no relacional.
