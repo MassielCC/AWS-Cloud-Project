@@ -8,7 +8,7 @@ Este repositorio contiene la documentación principal y recursos relacionados co
 </p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/bf5121de-8d54-4736-8426-411938176950">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/ee59f469-37ef-4739-9883-370a99c7d107" width="700">
 </p>
 
 ## Contenido
