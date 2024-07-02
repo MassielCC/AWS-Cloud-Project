@@ -3,8 +3,9 @@
   <h1 align="center">Ejercicio 6: Implementación de CloudFront para caché y seguridad de aplicaciones</h1>
 </p>
 
-•	Configuración de CloudFront para la protección de aplicaciones mediante WAF (Web Application Firewall).
-•	Experimentación con reglas de seguridad y políticas de caché.
+## Objetivos
+- Configuración de CloudFront para la protección de aplicaciones mediante WAF (Web Application Firewall).
+- Experimentación con reglas de seguridad y políticas de caché.
 
 - No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en Lab Learner ni el laboratorio que se utilizó para crear la distribución de CloudFront
 <p align= "center">
