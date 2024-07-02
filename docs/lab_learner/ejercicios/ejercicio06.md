@@ -1,3 +1,12 @@
+## 6. Implementación de CloudFront para caché y seguridad de aplicaciones
+•	Configuración de CloudFront para la protección de aplicaciones mediante WAF (Web Application Firewall).
+•	Experimentación con reglas de seguridad y políticas de caché.
+
+- No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en Lab Learner ni el laboratorio que se utilizó para crear la distribución de CloudFront
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/b6068f10-992a-40ff-9519-cf42d2c66f6e" width="800">
+</p>
+
 ## WAF: Web Application Firewall
 
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e665d02c-48d6-43d6-ab36-5ebb48d2a8d0" width="800"></p>
