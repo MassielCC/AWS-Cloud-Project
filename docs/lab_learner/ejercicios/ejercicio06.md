@@ -13,9 +13,7 @@ No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en La
 </p>
 
 ## WAF: Web Application Firewall
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e665d02c-48d6-43d6-ab36-5ebb48d2a8d0" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ee11fb38-e1b8-49bc-a6bd-01e592c93dd0" width="800"></p>
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ba37cfa7-53f4-47ec-81b7-8bc40680c270" width="800"></p>
 
@@ -30,14 +28,12 @@ No se cuentan con los permisos para usar Web Application Firewall (WAF) ni en La
 </p>
 
 ### 3. Crear distribución CloudFront (desde el laboratorio del semestre 2)
-Debido a la falta de permisos para crear la distribución en Amazon CloudFront, se utilizó el laboratorio del módulo 5 del curso AWS Academy Introduction to Cloud: Semester 2
-A continución se muestran las principales diferencias:
+Debido a la falta de permisos para crear la distribución en Amazon CloudFront, se utilizó el laboratorio del módulo 5 del curso AWS Academy Introduction to Cloud: Semester 2. A continución se muestran las principales diferencias:
 - Primero se tuvo que crear un nuevo bucket en S3
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/231d2581-a61c-4d88-86dc-876460ebfe39" width="800">
 </p>
-
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/76b546f1-640c-4730-9454-24fea62265c8" width="800">
 </p>
@@ -66,9 +62,7 @@ Se debe configurar el grupo de seguridad de la instancia EC2
 
 **Servidor web**
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2b572b2-7068-40fb-b421-872579d91378" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/cbd7b4b2-8d0d-48c9-ac53-e4697f090ea2" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/ef73dcb7-a357-4269-a7f5-45716feb336e" width="800"></p>
 
 Podemos acceder al servidor web con el Dominio de IPv4 público de la instancia EC2 
@@ -78,7 +72,6 @@ Accedemos a la carpeta en la que se almacenan los recursos que se mostrarán des
 
 Creamos una página HTML sencilla
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/1f4860df-220f-4456-8f93-da15c5acfcce" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9188b92c-31d6-47e6-9e86-82270bf911ff" width="800"></p>
 
 ### 3. Creación de la distribución CloudFront
@@ -88,15 +81,10 @@ Creamos una página HTML sencilla
 Debido a la falta de permisos para la creación de una distribución de CloudFront del Lab Learner se optó por usar el laboratorio del módulo 5 y se uso como origin la instancia EC2 previamente creada con la cuenta de Lab Learner. El origin que se usa para crear una distribución de CloudFront no debe ser necesarimente un servicio de AWS y tampoco es requisito que se hayan creado con la misma cuenta.
 
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/2f49f372-be3e-44d1-9cfe-cddeda7b4d7f" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c17c0ccd-ed9f-465f-87b2-78500b2d119a" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9367e11c-f066-4b90-acfe-3e1ff48992e1" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/91a6e24e-26c1-4199-b6e1-0c552d76971a" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/7fa038bc-d1c2-482f-a893-5b62d540e6ed" width="800"></p>
-
 <p align= "center"><img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/d4db5635-efbb-4c05-8e0c-b64cda8d67a7" width="800"></p>
 
 Si se quiere acceder al servidor web a través de HTTPS, el necesario contar con un certificado SSL. Podemos solicitarselo a Amazon
