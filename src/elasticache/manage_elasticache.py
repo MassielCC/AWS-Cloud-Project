@@ -127,7 +127,13 @@ def main():
     Función principal que ejecuta el programa para medir el rendimiento de diferentes patrones de caché.
     """
     cluster_id = input("ID del clúster: ")  # Solicita al usuario el ID del clúster
-    redis_endpoint = load_from_file(f'{cluster_id}_redis_endpoint.txt')  # Carga el endpoint de Redis desde un archivo
+    redis_endpoint_file = f'{cluster_id}_redis_endpoint.txt'
+
+    if not os.path.exists(os.path.join('data', redis_endpoint_file)):
+        print(f"No se encontró el archivo '{redis_endpoint_file}' para el ID del clúster proporcionado.")
+        return
+
+    redis_endpoint = load_from_file(redis_endpoint_file)  # Carga el endpoint de Redis desde un archivo
 
     try:
         redis_client = redis.StrictRedis(host=redis_endpoint, port=6379, decode_responses=True)  # Crea un cliente Redis
