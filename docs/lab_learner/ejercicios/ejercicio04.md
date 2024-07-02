@@ -3,10 +3,11 @@
   <h1 align="center">Ejercicio 4: Caché con Amazon CloudFront</h1>
 </p>
 
-•	Configuración de CloudFront para distribuir contenido estático y dinámico.
-•	Integración de CloudFront con S3 y EC2 para mejorar la entrega de contenido.
+## Objetivos
+- Configuración de CloudFront para distribuir contenido estático y dinámico.
+- Integración de CloudFront con S3 y EC2 para mejorar la entrega de contenido.
 
-### Integración de CloudFront con S3
+## Integración de CloudFront con S3
 ### 1. Crear bucket S3
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/af7fbaa2-8190-4649-ab19-da906e12a44a" width="800">
