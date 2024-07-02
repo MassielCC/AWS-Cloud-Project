@@ -28,3 +28,6 @@
 - **Guías de laboratorio:** Instrucciones detalladas para completar las tareas del laboratorio.
 - **Entornos preconfigurados:** Recursos de AWS ya configurados para los ejercicios.
 - **Herramientas de validación:** Para verificar la correcta realización de las tareas.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/78ecdda3-1ce6-457c-a04e-26cc6a3661ff" width="1000">
+</p>
