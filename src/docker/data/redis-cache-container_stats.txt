@@ -1,0 +1,120 @@
+Estadísticas del Contenedor Redis:
+  CPU: 0.13%
+  Memoria: 4.598MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.26MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 4.598MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.26MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.13%
+  Memoria: 4.598MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.26MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 4.598MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.26MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 4.598MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.26MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 4.598MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.26MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.13%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.13%
+  Memoria: 4.629MiB / 949.5MiB
+  Red I/O: 1.3kB / 0B
+  Disco I/O: 5.29MB / 73.7kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.25kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.13%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.25kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.25kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.15%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.25kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.13%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.25kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.32kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
+Estadísticas del Contenedor Redis:
+  CPU: 0.14%
+  Memoria: 6.633MiB / 949.5MiB
+  Red I/O: 1.32kB / 0B
+  Disco I/O: 14.3MB / 57.3kB
+
