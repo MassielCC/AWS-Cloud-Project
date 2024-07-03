@@ -8,6 +8,8 @@
 - Integración de CloudFront con S3 y EC2 para mejorar la entrega de contenido.
 
 ## Integración de CloudFront con S3
+Al crear una distribución en Amazon CloudFront te pide seleccionar el "Origin" que es diferente dependiendo de si el contenido es estático o dinámico. Para contenido estático se puede hacer una integración de CloudFront con Amazon S3, almancenando nuestros archivos en un bucket. Si el bucket está configurado como almacenamiento de sitio web estático Amazon CloudFront puede distribuir el contenido de nuestro sitio web.
+
 ### 1. Crear bucket S3
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/af7fbaa2-8190-4649-ab19-da906e12a44a" width="800">
@@ -85,6 +87,8 @@ Debido a la falta de permisos para crear la distribución en Amazon CloudFront, 
 </p>
 
 ### Integración de CloudFront con EC2
+Para la distribución de contenido dinámico podemos hacer uso de Amazon EC2 u otro servidor de origen en el que esté almacenado nuestro contenido.
+
 ### 1. Crear instancia EC2 y conectarlo por SSH
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/c2b572b2-7068-40fb-b421-872579d91378" width="800">
