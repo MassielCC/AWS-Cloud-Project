@@ -8,6 +8,26 @@
 - Prácticas de implementación y optimización de caché para aplicaciones de datos.
 
 ### Configuración de ElastiCache utilizando Redis
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/e5849e49-1648-4dbf-a9e3-81cd305510d1)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/1ca7fb3d-1201-4bec-a956-64429b388ce5)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/74ded47e-4f1c-495c-8e12-d8c46a45e0d5)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/0bb1daea-1266-4fb2-97f1-2d115013cfd1)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/cd4930b1-ac9f-4a23-a680-f27ad83c0361)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/9c04286f-37a3-476f-970a-83dd2e939786)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/783df0a6-adf8-4b7f-878c-5a17c3ae967c)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/f0ad1b3e-0f56-492e-a8a3-4e2ff7126f4b)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/afabf75a-9f39-4bbe-a373-397bb7998df3)
+
+![image](https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/73445717/a653414e-f9a0-4a78-b4fb-67d469325509)
+
 
 ### Configuración de ElastiCache utilizando Memcached
 ### 1. Configurar instancia EC2
