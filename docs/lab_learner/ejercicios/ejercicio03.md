@@ -28,4 +28,7 @@
 - En situaciones donde necesitábamos una capa de abstracción adicional entre nuestra aplicación y la base de datos, el patrón Read-Through demostró ser útil.
 - Para aplicaciones que requieren consistencia inmediata entre la caché y la base de datos, el patrón Write-Through fue la mejor opción, aunque notamos un ligero aumento en la latencia de escritura.
 
-<p align="justify">Para demostrar la implementación práctica de estos patrones y cómo afectan el rendimiento, más adelante realizaremos un ejercicio de código utilizando boto3 para interactuar con los servicios de AWS y la biblioteca redis para manejar las operaciones de caché. Este ejercicio nos permitirá experimentar directamente con diferentes configuraciones y observar su impacto en el rendimiento de nuestra aplicación simulada.</p>
+<p align="justify">Para demostrar la implementación práctica de estos patrones y cómo afectan el rendimiento, más adelante realizaremos un ejercicio de código utilizando boto3 para interactuar con los servicios de AWS y la biblioteca redis en cloud9 para manejar las operaciones de caché. Este ejercicio nos permitirá experimentar directamente con diferentes configuraciones y observar su impacto en el rendimiento de nuestra aplicación simulada.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/849226ad-182d-4fb9-bda8-46e426e1a974" width="900">
+</p>
