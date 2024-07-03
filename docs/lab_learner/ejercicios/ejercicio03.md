@@ -4,12 +4,23 @@
 </p>
 
 <p align="justify">En esta parte del proyecto, implementamos patrones de caché en aplicaciones simuladas utilizando Amazon ElastiCache. Utilizamos AWS LabLearner para experimentar con diferentes configuraciones de caché y analizar su impacto en el rendimiento de nuestras aplicaciones.</p>
+
 <p align="justify">Primero, nos familiarizamos con tres patrones de caché fundamentales:</p>
+
 <p align="justify"><strong>1. Cache-Aside:</strong> En este patrón, nuestra aplicación es responsable de leer y escribir desde/hacia la caché. Cuando necesitamos leer datos, primero verificamos si están en la caché. Si no están, los recuperamos de la base de datos y los almacenamos en la caché para futuras consultas. Para las operaciones de escritura, actualizamos primero la base de datos y luego invalidamos o actualizamos la entrada en la caché.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/4078dda7-9e0b-43d8-9df8-fae5d6140aef" width="900">
+</p>
 
 <p align="justify"><strong>2. Read-Through:</strong> Este patrón es similar al Cache-Aside, pero la responsabilidad de cargar los datos faltantes en la caché recae en la propia capa de caché, no en la aplicación. Cuando solicitamos datos que no están en la caché, esta se encarga automáticamente de obtenerlos de la base de datos y almacenarlos.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/f2b173e3-f115-4922-b5be-22f1d96195fc" width="900">
+</p>
 
 <p align="justify"><strong>3. Write-Through:</strong> En este patrón, cada operación de escritura se realiza tanto en la caché como en la base de datos. Primero escribimos en la base de datos y luego actualizamos la caché. Esto garantiza que la caché siempre esté sincronizada con la base de datos, pero puede aumentar la latencia de las operaciones de escritura.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/AWS-Cloud-Project/assets/150296803/667f7638-eba7-45f0-b3b9-95777ae20e46" width="900">
+</p>
 
 <p align="justify">Utilizando AWS LabLearner, configuramos un entorno de ElastiCache con Redis y realizamos pruebas con cada uno de estos patrones. Observamos cómo cada patrón afecta el rendimiento de nuestra aplicación en diferentes escenarios:</p>
 
