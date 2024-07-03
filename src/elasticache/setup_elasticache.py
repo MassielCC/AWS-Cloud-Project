@@ -16,7 +16,7 @@ def save_to_file(filename, content):
     filename: Nombre del archivo donde se guardará el contenido.
     content: Contenido a guardar en el archivo.
     """
-    directory = 'data'
+    directory = os.path.join(os.path.dirname(__file__), 'data')
     if not os.path.exists(directory):  # Verifica si el directorio 'data' existe
         os.makedirs(directory)  # Crea el directorio 'data' si no existe
     filepath = os.path.join(directory, filename)  # Obtiene la ruta completa del archivo
